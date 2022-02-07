@@ -73,7 +73,7 @@ function uploadSale() {
           // clear all items in store
           saleObjectStore.clear();
 
-          alert('All saved sale has been submitted!');
+          alert('All offline transaction has been submitted!');
         })
         .catch((err) => {
           console.log(err);
@@ -83,4 +83,4 @@ function uploadSale() {
 }
 
 // listen for app coming back online
-window.addEventListener('online', uploadSale());
+window.addEventListener('online', uploadSale);
