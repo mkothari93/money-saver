@@ -1,6 +1,6 @@
 // Create cache
-const CACHE_NAME = 'my-site-cache-v2';
-const DATA_CACHE_NAME = 'data-cache-v2';
+const CACHE_NAME = 'budget-tracker-cache-v1';
+const DATA_CACHE_NAME = 'budget-tracker-data-cache-v1';
 
 // Provide files to cache
 const FILES_TO_CACHE = [
