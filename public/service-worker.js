@@ -16,11 +16,11 @@ const FILES_TO_CACHE = [
   '/icons/icon-384x384.png',
   '/icons/icon-512x512.png',
   '/js/index.js',
+  '/js/idb.js',
   '/manifest.json',
 ];
 
 // Install the service worker
-// self refers to the service worker
 self.addEventListener('install', function (evt) {
   evt.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
@@ -53,7 +53,6 @@ self.addEventListener('activate', function (evt) {
 
 // Intercept fetch requests
 self.addEventListener('fetch', function (evt) {
-// only happens with api
   if (evt.request.url.includes('/api/')) {
     evt.respondWith(
       caches
