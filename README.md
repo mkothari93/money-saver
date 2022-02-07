@@ -44,6 +44,14 @@ To install this API, clone this repository. Run `$npm i` command in the terminal
 
 ---
 
+Here is an image of the website:
+
+![Money-saver-app](https://user-images.githubusercontent.com/90233589/152740524-4ccbd41e-58c6-46e0-b855-909dab2279a1.JPG)
+
+Here is the website URL:
+
+https://money-saver-budget-tracker.herokuapp.com/
+
 <br>
 
 ## Credits
